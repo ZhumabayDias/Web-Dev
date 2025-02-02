@@ -1,0 +1,446 @@
+.main{ 
+    width: 1470px;
+    height: 650px;
+    /* background-color: aqua; */
+    background-color: rgb(242, 244, 247);
+}
+.body{
+    width: 1470px;
+    height:1000
+}
+
+.general{
+    width: 980px;
+    height:500px;
+    /* background-color: brown; */
+    margin-left: 245px;
+    margin-right: 245px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top:20px;
+    display: block;
+  
+}
+
+.facebook{
+    width: 548px;
+    height: 298px;
+    /* background-color: aqua; */
+    padding-right: 32px;
+    display: inline-block;
+    position: relative;
+    bottom:100px;
+    
+}
+
+.photo{
+    width: 548px;
+    height: 54px;
+    padding-top: 112px;
+    padding-bottom: 16px;
+    /* background-color: blueviolet; */
+    display: block;
+}
+
+.facebook_photo{
+    width: 320px;
+    height: 106px;
+    display: inline;
+    /* background-color: black; */
+    margin: -28px;
+
+}
+
+.help{
+    width: 500px;
+    
+    height:96px;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 3540px;
+    line-height: 32px;
+    display: inline-block;
+    margin-top: 15px;
+    /* background-color: black; */
+}
+
+.authorization{
+    width: 396px;
+    height:510px;
+    position: relative;
+    top:70px;
+    /* background-color: blue; */
+    display: inline-block;
+}
+
+.bottoms{
+    width: 396px;
+    height: 330px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.number{
+    /* border-radius: 6px; */
+    width: 364px;
+    height: 52px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 15px;
+    top:15px;
+    position: relative;
+   
+}
+
+.buttom_number{
+    width: 330px;
+    height: 22px;  
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-color: rgb(221, 223, 226);
+    padding-bottom: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top-style: none;
+    border-left-style: none;
+    padding-top: 14px;
+    font-size: 17px;
+
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+   
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.password{
+    width: 364px;
+    height: 52px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 15px;
+    top:15px;
+    position: relative;
+}
+
+.buttom_password{
+    width: 330px;
+    height: 22px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-style: none;
+    border-color: rgb(221, 223, 226);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;   
+    padding-bottom: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 14px;
+    font-size: 17px;
+    border-top-left-radius: 6px;
+
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+}
+
+.login{
+    width: 396px;
+    height: 48px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 15px;
+    top:15px;
+    position: relative;
+    text-align: center;
+}
+
+.password_login{
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 364px;
+    height: 48px;
+
+    background-color: rgb(8, 102, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-style: none;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-style: none;
+}
+
+.forget{
+    width: 364px;
+    height: 18px;
+    display: block;
+    top:15px;
+    position: relative;
+    left: 15px;
+    margin-top: 16px;
+    text-align: center;
+    /* background-color: aquamarine;
+    position: relative;
+    left: 15px;
+    top:80px; */
+}
+
+.forget_text{
+    color: rgb(8, 102, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    
+    text-decoration: none;
+}
+
+.border{
+    width: 364px;
+    border-bottom-color: rgb(218, 221, 225);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-top: 25px;
+    margin-left: 15px;
+    position: relative;
+    /* position: relative;
+    left: 15px;
+    top:100px; */
+}
+
+.create_acc{
+    width: 396px;
+    height: 48px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+   
+    top:15px;
+    position: relative;
+    text-align: center;
+}
+
+.create-text{
+    color: rgb(255, 255, 255);
+    /* display: block; */
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    text-decoration-line: none;
+    width: 162px;
+    height: 48px;
+    background-color: rgb(66, 183, 42);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-style: none;
+
+
+    
+}
+
+.create_page{
+    height: 36px;
+    width: 396px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.create-account-text{
+    text-decoration: none;
+    text-decoration-line:none ;
+    color: rgb(28, 30, 33);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.main2{
+    width: 1470px;
+    height: 175px;
+    display: block;
+}
+
+.references{
+    color: rgb(115, 115, 115);
+    display: block;
+    margin-left: 245px;
+    font-size:12px;
+    margin-right: 245px;
+    width: 980px;
+    height: 155px;
+   
+}
+
+
+.languages{
+    padding-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+    width: 980px;
+    display: flex;
+    height: 20px;
+    padding-top: 8px;
+    list-style-type: none;
+}
+
+.a1{
+    color: rgb(115, 115, 115);
+   margin-left: 15px;
+   text-decoration: none;
+   text-decoration-line:none ;
+}
+
+.a2{
+    color: rgb(115, 115, 115);
+    margin-left: 10px;
+}
+
+.plus{
+    margin-left: 5px;
+    width: 12px;
+    display: block;
+    height: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgb(245, 246, 247);
+    border-bottom-color: rgb(204, 208, 213);
+    border-right-color: rgb(204, 208, 213);
+    border-left-color: rgb(204, 208, 213);
+    border-top-color: rgb(204, 208, 213);
+
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+}
+
+.image{
+    background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/2puAJFVXg0V.png");
+    background-position-x: -100px;
+    background-position-y: -59px;
+    background-repeat: no-repeat;
+    background-size: 171px 80px;
+    bottom: 1px;
+    color: rgb(138, 141, 145); 
+    display: inline-block;
+    height: 12px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 12px;
+}
+
+.border2{
+    border-bottom-color: rgb(221, 223, 226);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: rgb(115, 115, 115);
+    margin-bottom: 8px;
+    height: 8px;
+   
+}
+
+.links{
+    width: 980px;
+    height:57px;
+    line-height: 16.08px
+}
+
+.links2{
+    padding-left: 10px;
+    width: 1000px;
+    margin-left: -20px;
+    height: 57px;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    color: rgb(115, 115, 115);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8px;
+    list-style-type: none;
+    color: rgb(115, 115, 115);
+    line-height: 19.200001px;
+    margin-left: -20px;
+    
+    
+}
+
+.add{
+    background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/2puAJFVXg0V.png");
+    background-position-x: -21px;
+    background-position-y: -59px;
+    background-repeat: no-repeat;
+    background-size: 171px 80px;
+    color: rgb(138, 141, 145);
+    display: inline-block;
+    height: 12px;
+    vertical-align: middle;
+    white-space-collapse: collapse;
+    width: 16px;
+    -webkit-font-smoothing: subpixel-antialiased;
+
+
+}
+.b1{
+  
+    color: rgb(115, 115, 115);
+    margin-left: 15px;
+    text-decoration: none;
+    text-decoration-line:none ;
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse;
+
+}
+
+.end{
+    margin-top: 30px;
+    width: 980px;
+    height: 14px;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    margin-left: 5px;
+}
