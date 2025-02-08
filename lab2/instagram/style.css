@@ -1,36 +1,40 @@
 .main{
     width: 1470px;
-    height: 705px;
-
+    height: 600px;
+   
 
 }
 
 .submain{
     width: 935px;
     height: 630px;
-    margin-top: 32px;
+    margin-top: 50px;
     margin-left: 267.5px;
     margin-right: 267.5px;
- 
+    
     display: flex;
 }
 
 .bigPhoto{
-    width: 380px;
+    width: 340px;
     height: 581px;
     margin-right: 32px;
     margin-bottom: 12px;
+    position: relative;
+    bottom: 30px;
+   
+    left: 70px;
 }
 
 .idont{
     width: 268px;
     height: 0px;
     margin-top: 27px;
-    margin-left: 112px
+  
 }
 
 .photoGirl{
-    width: 250px;
+    width: 380px;
     height: 538px;
 }
 
@@ -38,7 +42,7 @@
     width: 350px;
     height: 628px;
     margin-top: 12px;
-
+    margin-left: 120px;
 }
 
 .registerBlock{
@@ -55,7 +59,6 @@
 
 .registerBlockMini{
     width: 348px;
- 
     height: 276px;
 }
 
@@ -66,6 +69,7 @@
     height: 51px;
     margin-left: 88px;
     color: black;
+    
 }
 
 .enterInformation{
@@ -344,4 +348,123 @@
     font-size: 16px;
     font-weight: 400px;
     text-align: center;
+}
+
+.install{
+    width: 350px;
+    height: 95px;
+    
+}
+
+.installApp{
+    width: 310;
+    height: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    text-align: center;
+
+}
+
+.iconsOfMarkets{
+    width: 350px;
+    height: 44px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.zhazu{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.iconApple{
+    width: 136px;
+    height: 44px;
+    margin-left: 8px;
+}
+
+.photoApple{
+    width: 136px;
+    height: 40px;
+   
+}
+
+.iconGoogle{
+    width: 136px;
+    height: 44px;
+    padding-left: 7px;
+   
+}
+
+.photoGoogle{
+    width: 136px;
+    height: 40px;
+}
+
+.footer{
+    width: 1438px;
+    height: 135px;
+    padding-left:16px ;
+    padding-right: 16px;
+}
+
+.references{
+    width: 1438px;
+    height: 83px;
+    margin-bottom: 52px;
+}
+
+.links{
+    width: 1428px;
+    height: 23px;
+    margin-top: 24px;
+    font-size: 14px;
+    
+}
+
+.links2{
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    color: rgb(115, 115, 115);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8px;
+    list-style-type: none;
+    color: rgb(115, 115, 115);
+    line-height: 19.200001px;
+    
+    
+}
+
+.languages{
+    width: 1438px;
+    height: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: rgb(115, 115, 115);
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    text-align: center;
+}
+
+.b1{
+  
+    color: rgb(115, 115, 115);
+    margin-left: 15px;
+    text-decoration: none;
+    text-decoration-line:none ;
+    
+}
+
+.iconPhoto{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top:4px
 }

@@ -322,8 +322,16 @@
    margin-left: 15px;
    text-decoration: none;
    text-decoration-line:none ;
+    pointer-events: auto;
+    cursor: pointer;
+    z-index: 10;
 }
 
+.listLang{
+   
+    position: relative;
+    z-index: 10;
+}
 .a2{
     color: rgb(115, 115, 115);
     margin-left: 10px;
@@ -409,6 +417,8 @@
     
 }
 
+
+
 .add{
     background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/2puAJFVXg0V.png");
     background-position-x: -21px;
@@ -444,3 +454,4 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
     margin-left: 5px;
 }
+

@@ -1,0 +1,420 @@
+#top{
+    width: 1470px;
+    height:54px;
+    padding-left: 73.5px;
+    padding-right: 73.5px;
+    display: flex;
+}
+
+.main2{
+    width: 1470px;
+    height: 1250px;
+    background-color: beige;
+    display: inline;
+}
+
+.learn{
+    background-color: rgb(0, 103, 184);
+    height: 58px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 1470px;
+}
+
+.a-learn{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.free{
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+.photo{
+    width: 1470px;
+    height:459px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.achieve{
+    width: 455px;
+    height: 176px;
+    position: relative;
+    left: 70px;
+    top:100px;
+}
+
+.h1-photo-div{
+    height: 44px;
+    margin-bottom: 24px;
+}
+
+.h1-photo{
+    color: rgb(0, 0, 0);
+
+   
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 37px;
+    font-weight: 500;
+    height: 44px;
+   
+
+    
+}
+
+.achieve-a-shop-div{
+    height: 56px;
+}
+
+.achieve-a-shop{
+    align-items: center;
+    background-color: rgb(0, 103, 184);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 4px 0px, rgba(0, 0, 0, 0.11) 0px 0px 1px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    column-gap: 7px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    justify-content: center;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-right: 0px;
+    margin-top: 8px;
+    overflow-wrap: break-word;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    position: relative;
+    row-gap: 7px;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-line: none;
+    visibility: visible;
+    width: auto;
+    }
+
+.achieve-shop{
+    align-items: center;
+    background-color: rgb(0, 103, 184);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-image-outset: 0;
+    border-color: rgba(0, 0, 0, 0);;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+
+    margin-bottom: 8px;
+    margin-right: 0px;
+    margin-top: 8px;
+    padding: 10px 12px;
+    position: relative;
+    text-align: left;
+    
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+   
+        }
+
+        
+
+#img-mic{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    object-fit: cover;
+   
+}
+
+.h2{
+    height: 44px;
+  
+    color: rgb(0, 0, 0);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+
+
+}
+
+.carousel{
+    width: 240px;
+    height: 44px;
+    margin-left: 600px;
+    display: block;
+}
+
+
+
+.linkes{
+    width: 1323px;
+    height: 104px;
+    padding-left: 73.5px;
+    padding-right: 73.5px;
+   
+}
+
+.u-lists{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.lists-links{
+    margin-bottom: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 16px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 16px;
+    min-width: 1px;
+    width: 229.265625px;
+}
+
+.icon-links{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.a-links{
+    color: rgb(0, 103, 184);
+    cursor: auto;
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    overflow-wrap: break-word;
+    height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    width: 229.265625px; 
+
+}
+
+.cards{
+    width: 1323px;
+    height: 509px;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px;
+    justify-content: space-between;
+    margin-left: 15px;
+
+}
+
+
+.cards-mini{
+    display: flex;
+    flex-direction: column; 
+    width: 336px;
+    height: 509px;
+    box-shadow: 0 0 10px #888888;
+    position: relative;
+    grid-row: 1;
+    
+}
+
+.card-img{
+    width: 100%;
+    height: 40%;  
+}
+
+.cards-text{
+    width: 312px;
+    height: 254px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    
+}
+
+
+
+.cards-h2{
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 29px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.cards-span{
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 72px;
+    line-height: 24px;
+    margin:5px;
+    overflow-wrap: break-word;
+    text-align: left;
+    width: 264.75px;
+    flex:1;
+
+}
+
+
+
+#icon{
+    width: 137px;
+    height: 54px;
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 6px;
+    background-color: rebeccapurple;
+}
+
+.c-image{
+    width: 108px;
+    height: 23px;
+    position: relative;
+    top:10px;
+    left: 30px;
+}
+
+.c-text{
+    width: 1px;
+    height: 1px;
+    
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+.references-1{
+    width: 813px;
+    height: 54px;
+    padding-left: 2px;
+    padding-right: 1px;
+}
+
+.languages{
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+    width: 813px;
+    display: flex;
+    height: 49px;
+    padding-top: 8px;
+    list-style-type: none;
+}
+
+.a1{
+    font-size: 13px;
+    font-weight: 400;
+   margin-left: 15px;
+   text-decoration: none;
+   text-decoration-line:none ;
+    pointer-events: auto;
+    cursor: pointer;
+    z-index: 10;
+    color: rgb(38, 38, 38);
+}
+
+.listLang{
+   
+    position: relative;
+    z-index: 10;
+    bottom: 5px;
+  
+}
+
+.listLang2{
+    z-index: 10;
+    position: relative;
+    bottom: 15px;
+  
+}
+.listLang3{
+    z-index: 10;
+    position: relative;
+    bottom: 38px;
+  
+}
+
+.references-2{
+    width: 369px;
+    height: 54px;
+}
+
+.bottom{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top:10px;
+}
+
+.bottom2{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:20px;
+}
+
+.photo-person{
+    
+}
+
