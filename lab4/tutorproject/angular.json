@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mynewangularapp": {
+    "tutorproject": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/mynewangularapp",
+            "outputPath": "dist/tutorproject",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "mynewangularapp:build:production"
+              "buildTarget": "tutorproject:build:production"
             },
             "development": {
-              "buildTarget": "mynewangularapp:build:development"
+              "buildTarget": "tutorproject:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -1,0 +1,15 @@
+
+ <div class="products">
+  <div *ngFor="let product of products" class="product-card">
+    <img [src]="product.selectedImage" [alt]="product.name" class="product-photo">
+    <h2 class="product-name">{{product.name}}</h2>
+    <div class="image-buttons">
+      <button (click)="previousImage(product)">Previous</button>
+      <button (click)="nextImage(product)">Next</button>
+    </div>
+    <p class="product-description">{{product.description}}</p>
+        <p class="product-rating"> rating:{{ product.rating}}</p>
+        <a [href]="product.link" target="_blank">View on Kaspi Shop</a>
+        <button (click)="shareProduct(product)">Share</button>
+  </div>
+</div>
