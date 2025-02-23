@@ -1,0 +1,5 @@
+<div class="products">
+    <div *ngFor="let product of products" class="product-card">
+        <app-product-item [product]="product" (remove) = "removeProduct(product)"></app-product-item>
+    </div>
+</div>

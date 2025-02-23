@@ -1,0 +1,16 @@
+<img [src]="product.selectedImage" [alt]="product.name" class="product-photo">
+<h2 class="product-name">{{product.name}}</h2>
+<div class="image-buttons">
+    <button (click)="previousImage()">Previous</button>
+    <button (click) = "increaseLike()">Like</button>
+    <button (click)="nextImage()">Next</button>
+</div>
+    <p class="product-description">{{product.description}}</p>
+    <p class="product-rating"> rating:{{ product.rating}}</p>
+    <p class="product-like">likes:{{product.like}}</p>
+    <a [href]="product.link" target="_blank">View on Kaspi Shop</a>
+    <div class="button-bottom">
+        <button (click)="shareProduct()">Share</button>
+        <button (click)="deleteItem()">Remove</button>
+    </div>
+ 

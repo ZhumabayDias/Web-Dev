@@ -1,0 +1,11 @@
+
+<h1>Dias`s Shop</h1>
+<section class="categories">
+    <button class="category-button" type="button" (click)="filterResults('Musical instruments')">Musical instruments</button>
+    <button class="category-button" type="button" (click)="filterResults('Furniture')">Furniture</button>
+    <button class="category-button"type="button" (click)="filterResults('White goods')">White goods</button>
+    <button class="category-button"type="button" (click)="filterResults('Medicine')">Medicine</button>
+</section>
+
+<section class="results">
+  <app-product-list [products]="filteredItemList"></app-product-list>
