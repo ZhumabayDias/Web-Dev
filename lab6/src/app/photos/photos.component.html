@@ -1,0 +1,13 @@
+<div *ngIf="loaded; else loadingBlock">
+   <button class="button-return" (click) = "toReturn()">Return</button>
+    <div class="photo-list">
+        <div *ngFor="let photo of photos" class="photo-card">
+            <img [src]="photo.url"  class="photo">
+            <p class="p-photo">{{ photo.title }}</p>
+        </div>
+    </div>
+</div>
+
+<ng-template #loadingBlock>
+    Photos are loading...
+</ng-template>

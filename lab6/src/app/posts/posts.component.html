@@ -1,0 +1,14 @@
+
+<div class="albums" *ngIf="loaded; else loadingBlock">
+    <div *ngFor="let post of posts" class="general-card-posts">
+        <a class="card-posts" [routerLink]="['/posts',post.id]">{{post.id}} - {{post.title}}</a>
+        <button class="deleteButton" (click)="deleteAlbum(post.id)">Delete</button>
+    </div>
+</div>
+
+
+<ng-template #loadingBlock>
+    Post details is loading...
+</ng-template>
+
+

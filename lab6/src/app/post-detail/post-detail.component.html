@@ -1,0 +1,17 @@
+<div *ngIf = "loaded; else loadingBlock" class="main">
+    <h3 class="id">Post ID is {{post.id}}</h3>
+    <h4 class="title">Post title is {{post.title}}</h4>
+    <p class="change">Change Title</p>
+    <input type = "text" class="input-detail" #myInput placeholder="Title">
+    <button class="button-save" (click) = "saveTitle()">Save</button>
+    <button class="button-return" (click) = "toReturn()">Return</button>
+    
+    
+    <a class="link-photos" [routerLink]="['/posts',post.id,'photos']">Photos</a>
+</div>
+
+<ng-template #loadingBlock>
+    Post details is loading...
+</ng-template>
+
+
