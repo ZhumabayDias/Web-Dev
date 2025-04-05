@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color:  rgb(33, 126, 173);
+}
+.categories{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.category-button{
+    flex: 1;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+.category-button:hover {
+    background-color: #0056b3;
+  }
