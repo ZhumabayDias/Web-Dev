@@ -7,7 +7,9 @@ class CompanySerializer(serializers.ModelSerializer):
         model = Company
         fields = '__all__'
 
-class VacancySerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Vacancy
-        fields = ('id','name','salary','company')
+class VacancySerializer(serializers.Serializer):
+    id = serializers.IntegerField(read_only=True)
+    name = serializers.CharField(max_length=255)
+    description = serializers.CharField()
+    salary = serializers.FloatField()
+    company = serializers.IntegerField()
